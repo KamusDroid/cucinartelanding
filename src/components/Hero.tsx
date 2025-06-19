@@ -19,7 +19,7 @@ export default function Hero() {
           href="#services"
           className="inline-block bg-sky-800 hover:bg-sky-900
                      dark:bg-sky-700 dark:hover:bg-sky-800
-                     text-white dark:text-yellow-400 font-semibold px-8 py-3 rounded-lg transition mt-4"
+                     text-white dark:text-yellow-400 font-semibold px-8 py-3 rounded-lg transition mt-4 z-[0]"
         >
           Ver Servicios
         </a>
@@ -37,7 +37,7 @@ export default function Hero() {
       </div>
 
   {/* Imagen de fondo */}
-  <div className="absolute inset-0 z-[0]">
+  <div className="absolute inset-0 z-[0] pointer-events-none">
     <img
       src="/image/cucinartegold.png"
       alt="cucinarte logo"
