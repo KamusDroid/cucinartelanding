@@ -41,7 +41,7 @@ export default function Hero() {
     <img
       src="/image/cucinartegold.png"
       alt="cucinarte logo"
-      className="w-full h-full object-contain opacity-3"
+      className="w-full h-full object-contain opacity-7"
     />
   </div>
     </section>
